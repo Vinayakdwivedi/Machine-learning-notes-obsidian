@@ -5,3 +5,4 @@ $$
 \theta = \sum_{i=0}^{n}(y_i - h(\theta)) + \alpha |\theta|
 $$
 Here $\alpha$ decides the level of normalization and theta is the parameter/slope.
+It turns the useless feature weights to zero 

@@ -43,3 +43,4 @@ $\text{blue line - training error}$
 To avoid overfitting we normalize the data, using two methods which are-
 - [[Ridge Regression]]
 - [[Lasso Regression]]
+- [[Elastic Net]]
