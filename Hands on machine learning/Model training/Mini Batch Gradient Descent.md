@@ -1,0 +1,2 @@
+Unlike erratic parameters in stochastic GD here the GD is performed on mini batches of the data which makes is more accurate than SGD but it is very prone to local minima. 
+Both SGD and this GD are compatible with [[Out Of Core Learning]].

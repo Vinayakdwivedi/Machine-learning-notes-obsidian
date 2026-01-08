@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"5e1f487eda53d4b5","type":"group","x":-1580,"y":-640,"width":3180,"height":1377,"label":"data processing"},
+		{"id":"7762408679a314e9","type":"group","x":-1260,"y":-1806,"width":1960,"height":740,"label":"seperate the test data"},
+		{"id":"4fa30b5fc5798661","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Test data.md","x":-506,"y":-1553,"width":431,"height":320,"color":"2"},
+		{"id":"4d5f4380efa7ded7","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/train_test_split.md","x":280,"y":-1786,"width":400,"height":233,"color":"1"},
+		{"id":"79a515cfec216608","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/hashing.md","x":-1240,"y":-1786,"width":400,"height":283,"color":"1"},
+		{"id":"8ae3684bb988ea47","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Analyzing and visualize the data.md","x":-840,"y":-2800,"width":400,"height":400,"color":"2"},
+		{"id":"1731a3f5e89ae49e","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/scatter_matrix.md","x":-40,"y":-2680,"width":400,"height":400,"color":"1"},
+		{"id":"db4e93fc5b162a5e","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/One hot encoding.md","x":-1400,"y":137,"width":400,"height":400,"color":"4"},
+		{"id":"b59d74ce4115e3dc","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/stratified sampling.md","x":200,"y":-1320,"width":400,"height":234,"color":"1"},
+		{"id":"50aa51b357f8bdbb","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Data Pipelines.md","x":-240,"y":880,"width":400,"height":400,"color":"2"},
+		{"id":"c81b570c0e3130c8","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Training the model.md","x":382,"y":1920,"width":400,"height":400,"color":"2"},
+		{"id":"dd2fa57692cfa0ba","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Pasted image 20251221052926.png","x":-2472,"y":880,"width":1760,"height":1180},
+		{"id":"72d0c66c6ba21690","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Ordinal encoding.md","x":-1400,"y":-327,"width":400,"height":400,"color":"4"},
+		{"id":"24d1062805e37c27","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Data Cleaning.md","x":-661,"y":-436,"width":421,"height":219,"color":"1"},
+		{"id":"855e3efef7360a9e","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Data processing.md","x":-40,"y":-557,"width":400,"height":270,"color":"2"},
+		{"id":"6357515233e23ce7","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Handling Categorical Attributes.md","x":-661,"y":5,"width":419,"height":264,"color":"1"},
+		{"id":"e4b424defbf20ba0","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Feature Scaling.md","x":-40,"y":269,"width":400,"height":287,"color":"1"},
+		{"id":"d90f16752ecdc460","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Standardization.md","x":880,"y":337,"width":400,"height":400},
+		{"id":"775ccf7b6756ef4b","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Normalization.md","x":880,"y":-195,"width":400,"height":400},
+		{"id":"4a9e58102740f563","type":"file","file":"Hands on machine learning/Classification/End to End machine learning/Data Transformation.md","x":40,"y":-127,"width":400,"height":228,"color":"1"}
+	],
+	"edges":[
+		{"id":"0d3834e219d19313","fromNode":"50aa51b357f8bdbb","fromSide":"bottom","toNode":"c81b570c0e3130c8","toSide":"top"},
+		{"id":"73194616bff54fb8","fromNode":"7762408679a314e9","fromSide":"bottom","toNode":"5e1f487eda53d4b5","toSide":"top"},
+		{"id":"1077a5a06792d8e5","fromNode":"4fa30b5fc5798661","fromSide":"left","toNode":"79a515cfec216608","toSide":"right","toEnd":"none"},
+		{"id":"31cf73bc766e46a8","fromNode":"4fa30b5fc5798661","fromSide":"right","toNode":"b59d74ce4115e3dc","toSide":"left","toEnd":"none"},
+		{"id":"d36d20f4aa24f13e","fromNode":"4fa30b5fc5798661","fromSide":"right","toNode":"4d5f4380efa7ded7","toSide":"left","toEnd":"none"},
+		{"id":"286c3e7e55df661e","fromNode":"6357515233e23ce7","fromSide":"left","toNode":"72d0c66c6ba21690","toSide":"right","toEnd":"none"},
+		{"id":"406355f07edbadb1","fromNode":"6357515233e23ce7","fromSide":"left","toNode":"db4e93fc5b162a5e","toSide":"right","toEnd":"none"},
+		{"id":"a77f9ff3311401fd","fromNode":"8ae3684bb988ea47","fromSide":"bottom","toNode":"7762408679a314e9","toSide":"top"},
+		{"id":"bb983b154963b88c","fromNode":"1731a3f5e89ae49e","fromSide":"left","toNode":"8ae3684bb988ea47","toSide":"right","toEnd":"none"},
+		{"id":"9c0d52fe11861ffe","fromNode":"e4b424defbf20ba0","fromSide":"right","toNode":"775ccf7b6756ef4b","toSide":"left","toEnd":"none"},
+		{"id":"fc39d1ee385fb21c","fromNode":"e4b424defbf20ba0","fromSide":"right","toNode":"d90f16752ecdc460","toSide":"left","toEnd":"none"},
+		{"id":"a731fbdcea46237b","fromNode":"24d1062805e37c27","fromSide":"bottom","toNode":"6357515233e23ce7","toSide":"top"},
+		{"id":"9ae57d86b9236719","fromNode":"855e3efef7360a9e","fromSide":"left","toNode":"24d1062805e37c27","toSide":"right","toEnd":"none"},
+		{"id":"3a8285bca66fed34","fromNode":"6357515233e23ce7","fromSide":"right","toNode":"4a9e58102740f563","toSide":"left"},
+		{"id":"b3c91bf7f2af7a59","fromNode":"4a9e58102740f563","fromSide":"bottom","toNode":"e4b424defbf20ba0","toSide":"top"},
+		{"id":"c9a6f80e97ce82d8","fromNode":"e4b424defbf20ba0","fromSide":"bottom","toNode":"50aa51b357f8bdbb","toSide":"top"}
+	]
+}

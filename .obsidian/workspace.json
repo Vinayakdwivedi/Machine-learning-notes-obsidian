@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "ed102c00b0214c5e",
+    "type": "split",
+    "children": [
+      {
+        "id": "571f73cd5e74fb31",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8980d96a4d8b06b6",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4243284c27c93df7",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ef38349c5604b01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27cc5ec49d24a97f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c322e4567ac691c3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8225b74d68d7acd3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "75ec16048899e3ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "e150b0144e2a0542",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b3b88f94b1dfbcb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "8a0ff43bcbc302f4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "42e65ff5565fc2af",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1548033024309af7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "c83e3f70767406a8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "ce2bf957c554d049",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "git-view"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "8980d96a4d8b06b6",
+  "lastOpenFiles": [
+    "desktop.ini",
+    "Untitled.base",
+    "Lasso Regression.md",
+    "Hands on machine learning/Model training/Ridge Regression.md",
+    "Hands on machine learning/Model training/computational complexity.md",
+    "Hands on machine learning/Model training/Logistic Regression.md",
+    "Pasted image 20260106202630.png",
+    "Hands on machine learning/Model training/Linear Regression.md",
+    "Hands on machine learning/Model training/Derivation(linear normal eq.).md",
+    "Hands on machine learning/Model training/Pasted image 20260104003637.png",
+    "Hands on machine learning/Model training/SVD(Single Value Decomposition).md",
+    "Hands on machine learning/Model training/Gradient Descent.md",
+    "Hands on machine learning/Model training/Batch Gradient Descent.md",
+    "Hands on machine learning/Out Of Core Learning.md",
+    "Hands on machine learning/Classification/Confusion Matrix.md",
+    "Pasted image 20260106020503.png",
+    "Hands on machine learning.md",
+    "Hands on machine learning/Model training/Mini Batch Gradient Descent.md",
+    "Hands on machine learning/Model training/Stochastic Gradient Descent.md",
+    "Hands on machine learning/Model training/Pasted image 20260105022933.png",
+    "Hands on machine learning/Model training/Pasted image 20260105022903.png",
+    "Hands on machine learning/Model training/Pasted image 20260105021220.png",
+    "Hands on machine learning/Model training/Pasted image 20260105013839.png",
+    "Hands on machine learning/Model training",
+    "Hands on machine learning/Classification/F1 score.md",
+    "Hands on machine learning/Classification/Precision.md",
+    "Hands on machine learning/Classification/End to End machine learning/K-fold cross validation.md",
+    "Hands on machine learning/Classification/My-k-fold-validator.md",
+    "Hands on machine learning/Classification/ROC curve.md",
+    "Hands on machine learning/Classification/Untitled 1.md",
+    "Hands on machine learning/Classification/Pasted image 20251228141630.png",
+    "Hands on machine learning/Classification/Pasted image 20251227175022.png",
+    "Hands on machine learning/Classification/Pasted image 20251228140700.png",
+    "Pasted image 20251227152952.md",
+    "Hands on machine learning/Classification/Recall.md",
+    "Hands on machine learning/Classification/End to End machine learning/Deploying the model.md",
+    "Hands on machine learning/Classification/End to End machine learning/machine_learning pipeline.canvas",
+    "Hands on machine learning/Classification/Model Testing(Classification).md",
+    "Hands on machine learning/Classification/Training the model (MNIST).md",
+    "Hands on machine learning",
+    "Untitled.canvas",
+    "Hands on machine learning/Classification",
+    "Hands on machine learning/Classification/End to End machine learning",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "communication system notes"
+  ]
+}

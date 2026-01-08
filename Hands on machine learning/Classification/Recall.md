@@ -1,0 +1,4 @@
+$$ = \frac{TP}{TP+FP} $$
+![[Pasted image 20251227175022.png]]
+Here we have two models which predict cancer. Both have same accuracy but we have to chose the one with lower <mark style="background: #BB8484A6;">False Negative</mark> because we don't want to classify someone as not a cancer but has cancer(False Negative), either we can accept to classify someone which does not have cancer but classify as cancer (which is False Positive). So Recall depends on <mark style="background: #BB8484A6;">False Negative</mark> 
+$$ Recall = \frac{TP}{TP+FN} $$ we will choose model A which has lower False Negative.

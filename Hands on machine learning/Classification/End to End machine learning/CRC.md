@@ -1,0 +1,1 @@
+CRC32 (Cyclic Redundancy Check 32-bit) is a fast error-detecting code that generates a unique 32-bit checksum for a block of data, used to detect accidental corruption during transmission or storage, common in ZIP files, Ethernet, PNGs, and network protocols. Use CRC32 **to find data transmission errors**
