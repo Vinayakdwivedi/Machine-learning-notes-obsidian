@@ -31,7 +31,7 @@
   "submoduleRecurseCheckout": false,
   "gitDir": "D:\\desktop_latest\\furnace\\phase-2\\git_obsidian",
   "showFileMenu": true,
-  "authorInHistoryView": "hide",
+  "authorInHistoryView": "initials",
   "dateInHistoryView": true,
   "diffStyle": "split",
   "lineAuthor": {
