@@ -14,7 +14,7 @@ $$
 h(\theta) = \sum_{i=0}^{m} (y_i - h(\theta)) + \lambda (\sum_{i=0}^{n}\theta_i^2)
 $$
 $\text{m - slope of the line}$ 
-$\lambda - \text{hyper parameter, which control the intensity of normalization}$ ]
+$\lambda - \text{hyper parameter, which control the intensity of normalization}$
 After simplifying the above equation we get a closed form equation.
 Closed form equation of ridge regression 
  $$

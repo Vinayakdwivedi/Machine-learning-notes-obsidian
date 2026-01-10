@@ -1,7 +1,7 @@
 When our data can not fit through a straight line, like our data(variables) has a weird relation between them like for example- parabolic or some other shape.
 ![[Pasted image 20260106020503.png]]
 ### Mechanism
-Polynomial regression is just linear regression just there is one more input which is just the existing feature just its square or any other degree term. See, it's like parameters doesn't changes only features change, its just feature engineering.
+Polynomial regression is just [[linear regression]] just there is one more input which is just the existing feature just its square or any other degree term. See, it's like parameters doesn't changes only features change, its just feature engineering.
 $$
 h(\theta) = \theta_o + \theta_1 x +\theta_2 x^2
 $$

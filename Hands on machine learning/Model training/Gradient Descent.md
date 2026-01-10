@@ -1,5 +1,5 @@
 Gradient Descent is based on a basic concept where we have try to decrease the cost function of our function, by changing the model parameter(y intercept, slope) randomly so to decrease the cost function like Mean Square Error until the cost function is at its minimum. 
-It's like I'am on a mountain and want to get down to the valley but I can't look for the peak so i will check where the ground is steep then take my step until i reach to bottom.
+It's like I'm on a mountain and want to get down to the valley but I can't look for the peak so i will check where the ground is steep then take my step until I reach to bottom.
 
 It is different from the normal equation, as it is used when the data is very large and to optimize the process of finding the parameters. 
 

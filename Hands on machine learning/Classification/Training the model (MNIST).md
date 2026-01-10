@@ -1,14 +1,17 @@
-we got the data from tensorflow keras because it is much faster than  the scikitlearn fetch_openml 
+we got the data from tensorflow keras because it is much faster than  the scikit learn fetch_openml 
 here is the code for the dataset-
-```
+
+``` python
 import tensorflow as tf
 import matplotlib.pyplot as plt
 (training, training_labels), (test, test_labels) = ts.keras.dataset.mnist.load_data()
 plt.imshow(training[0].reshape(28,28), cmap = gray)
 plt.axis("off")
 ```
+
  For Training we will use the *Stochastic Gradient Descent* (SDG). Good model for large data
-```
+ 
+```python
 from sklearn.linear_model import SGDClassifier
 training_labels_5 = (training_labels == 5)
 test_labels_5 = (test_labels == 5)
@@ -18,7 +21,8 @@ training_images_flat = training_images.reshape(60000,-1)
 sdg_classify.fit(training_images_flat, training_labels_5)
 ```
 Predicting-
-```
+
+```python
 sdg_classify.predict(training_images[0].reshape(1,784))
 ```
 
