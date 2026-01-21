@@ -1,4 +1,4 @@
-```
+``` python
 from sklearn.preprocessing import OrdinalEncoder
 ordinal = OrdinalEncoder()
 s = ordinal.fit_transform(df['catagorical_column'])

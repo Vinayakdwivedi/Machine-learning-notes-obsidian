@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"b93e81f3f1cc0b67","type":"file","file":"analyze data/demographic  change.png","x":1560,"y":-1160,"width":1761,"height":1169},
+		{"id":"15a91061aca2738e","type":"file","file":"analyze data/demoChange_time.png","x":-502,"y":-308,"width":1960,"height":973},
+		{"id":"c7438043800b265e","type":"file","file":"analyze data/biometric_changes_plot.png","x":1760,"y":1700,"width":2880,"height":1440},
+		{"id":"12f26f34ef791368","type":"file","file":"analyze data/age distribution state wise.png","x":-306,"y":-1360,"width":1764,"height":936},
+		{"id":"92258966d5127f1b","type":"file","file":"analyze data/biometric_percentage_descending.png","x":-306,"y":-2760,"width":2640,"height":1320},
+		{"id":"41d78a2f1459eeed","type":"file","file":"analyze data/Code_Generated_Image.png","x":-3080,"y":840,"width":2520,"height":1440},
+		{"id":"59b800deacb5507d","type":"file","file":"analyze data/migration population.png","x":-502,"y":813,"width":2180,"height":2094},
+		{"id":"b8cc3458a69de502","type":"file","file":"analyze data/state_age_distribution.png","x":-2840,"y":-361,"width":2201,"height":1174},
+		{"id":"01d1f0629ed142ab","type":"file","file":"analyze data/state_age_distribution 1.png","x":-2840,"y":-1671,"width":2338,"height":1247},
+		{"id":"611a850779d6162a","type":"file","file":"analyze data/population vs enrolment.png","x":1280,"y":4000,"width":2486,"height":1414}
+	],
+	"edges":[]
+}

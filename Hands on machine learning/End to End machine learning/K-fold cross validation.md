@@ -1,5 +1,4 @@
 ## 📂 K-Fold Cross Validation
-### 1. The Concept
 Instead of a single "Train/Test" split, you split the data $D$ into $k$ equal parts (folds).
 
 - **Total Iterations:** $k$

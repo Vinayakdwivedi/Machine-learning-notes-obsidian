@@ -10,7 +10,7 @@ S = df["column"].median()            #3
 df["column_x"].fillna(S, inplace = True)
 ```
 This is called as imputation 
-'#3 option ✅static data ❌for changing data
+3 option ✅static data ❌for changing data
 Imputation for changing data-
 we have a class in scikit-learn called **SimpleImputer** 
 ```
