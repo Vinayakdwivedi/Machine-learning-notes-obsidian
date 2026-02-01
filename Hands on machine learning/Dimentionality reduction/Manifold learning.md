@@ -1,0 +1,1 @@
+we can create 2d manifolds which can be bent and folded onto the high dimension data, but sometimes we have a complex decision boundary, which makes manifold learning irrelevent, but it can be used in most of the real world situations. Some other Dm reduction technique use this learning like [[LLE]]. 

@@ -10,7 +10,7 @@ Instead of a single "Train/Test" split, you split the data $D$ into $k$ equal pa
 - **Reliability:** Reduces the chance that your model just got "lucky" with a specific random split.
 
 ### 3. Implementation (The "Important" Code)
-```
+```python
 from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import RandomForestClassifier
 

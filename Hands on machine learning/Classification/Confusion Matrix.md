@@ -20,7 +20,7 @@ type 2 error - With high false negative
 <mark style="background: #FFB8EBA6;">Recall</mark> - tells the ration of that our model said it was true and it was with that our model said false but it was true. `Higher the recall, our model will` <mark style="background: #FFB86CA6;">less say false</mark>  
 *If you're problem is more affected by type 2 error the chose high recall*.
 
-```
+```python
 from sklearn.metrics import confusion_matrix
 from sklearn.model_selection import cross_val_predict
 

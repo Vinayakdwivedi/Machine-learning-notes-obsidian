@@ -1,4 +1,4 @@
-```
+``` python
 titanic = sn.load_dataset("titanic")
 titanic.head()
 ```
@@ -12,7 +12,7 @@ titanic.head()
 |   3   |    1     |   1    | female | 35.0 |   1   |   0   | 53.1000 |    S     | First | woman |   False    |  C   | Southampton |  yes  | False |
 |   4   |    0     |   3    |  male  | 35.0 |   0   |   0   | 8.0500  |    S     | Third |  man  |    True    | NaN  | Southampton |  no   | True  |
 
-```
+```python
 # Create bins for Age groups: (0-18], (18-40], (40-65], (65-inf)
 age_bins = [0, 18, 40, 65, titanic['age'].max() + 1]
 
@@ -27,17 +27,19 @@ titanic['Age_Group'].head(10)
 *Output*
 ![[Pasted image 20251216125210.png]]
 
-```
+```python
 strat_data = titanic.dropna(subset=['Age_Group']).reset_index(drop=True).copy()
 split = StratifiedShuffleSplit(n_splits = 1, test_size = 0.2, random_state=42)
-for train_index, test_index in split.split(strat_data, strat_data['Age_Group']):
+for train_index, test_index in split.split(strat_data,
+								strat_data['Age_Group']):
     train_set = titanic.loc[train_index]
     test_set = titanic.loc[test_index]
 train_set.head()
-
 ```
+
 
 ![[Pasted image 20251216125555.png]]
 
 Checking the stratifying percentage.
+
 ![[Pasted image 20251216125627.png]]

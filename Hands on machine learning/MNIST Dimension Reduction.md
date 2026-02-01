@@ -1,0 +1,1 @@
+first cluster all the digits using their labels and find the common pixels from all same labeled images and then put those uncommon pixel images apart and train the model on uncommon pixels of the 

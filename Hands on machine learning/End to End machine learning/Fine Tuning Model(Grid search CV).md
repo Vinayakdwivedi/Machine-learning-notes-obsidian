@@ -6,3 +6,12 @@ How it Works
 3. **Evaluation**: A performance metric (e.g., accuracy, F1 score, R-squared) is computed for each fold, and the average score is used to represent that parameter combination's performance.
 4. **Select the Best Model**: After testing all combinations, `GridSearchCV` selects the set of hyperparameters that yielded the highest average score during cross-validation.
 5. **Refit**: The final model is then typically refit on the entire training dataset using these best-found parameters.
+
+```python
+param_grid = param_grid = {
+    'max_depth': [3, 5, 10, None],
+    'min_samples_split': [2, 5, 10],
+    'criterion': ['gini', 'entropy']
+}
+gcv = GridSearchCV(clone(dt), param_grid)
+```

@@ -1,5 +1,5 @@
 It creates a chain of arranged events which happen one after another for the data.
-```
+```python
 from sklearn.pipeline import Pipeline
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import MinMaxScaler, OneHotEncoder
@@ -14,7 +14,7 @@ num_pipeline = Pipeline([
 ```
 
 to handle categorical and numerical data at the same time <mark style="background: #FFB8EBA6;">Column Transformer</mark>
- ```
+ ```python
 # Define column groups
 num_cols = ['age', 'fare']
 cat_cols = ['embarked', 'sex']

@@ -1,0 +1,2 @@
+Random forest also outputs feature importance in the data, by finding each node for that feature and finding which feature result in decrease in impurity.
+Use feature_importances_ variable to find the feature importance of the individual features
