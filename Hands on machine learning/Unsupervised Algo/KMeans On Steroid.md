@@ -1,0 +1,3 @@
+A betterment in KMeans was proposed in 2003 by Charles Elkan, by exploiting the triangle inequality i.e. strait line is not always the shortest path and by keeping track of lower bound and upper bound
+
+Second way to make efficient way to train a KMeans is by using mini batches of the data which make shifts the centroids little every time a new batch is introduced and it is very fast, but less accurate than the 

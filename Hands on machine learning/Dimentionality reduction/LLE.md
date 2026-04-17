@@ -1,0 +1,1 @@
+*Locally Linear Embedding*, it is a manifold learning technique
